@@ -1,0 +1,21 @@
+{
+    "appName": "trufflear",
+    "roleName": "pinpointLambdaRole6285e912",
+    "cloudformationPolicyName": "cloudformationPolicy6285e912",
+    "cloudWatchPolicyName": "cloudWatchPolicy6285e912",
+    "pinpointPolicyName": "pinpointPolicy6285e912",
+    "authPolicyName": "pinpoint_amplify_6285e912",
+    "unauthPolicyName": "pinpoint_amplify_6285e912",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

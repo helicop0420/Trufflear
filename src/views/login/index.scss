@@ -1,0 +1,121 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.home-panel {
+    background: #FBFFF0;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 39px;
+    padding-right: 39px;
+    .main-container {    
+        width: 100%;
+        max-width: 400px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 25px;
+    }
+    
+    .login-top-text {
+        margin-bottom: 1px;
+        margin-top: 0px;
+        font-family: 'Inter';
+        font-weight: 700;
+        color: #282828;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .login-bottom-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #B7B7B7;
+        margin: 0;
+    }
+    
+    .logo-box {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 20%;
+    }
+
+    .intro {
+        top: 35%;
+        position: absolute;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #555555;
+    }
+    
+    .login-btn {
+        border-radius: 30px !important;
+        color: white !important;
+        padding-left: 34px !important;
+        padding-right: 34px !important;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+        text-transform: none !important;
+    }
+    
+    .login-btn-signup {
+        background: #282828 !important;
+        margin-right: 12px !important;
+    }
+    
+    .login-btn-login {
+        background: #4CB5AB !important;
+    }
+    
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 16%;
+        right: 0;
+        left: 0;
+        p {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #282828;
+            margin-right: 15px;
+        }
+        img {
+
+        }
+    }
+    
+    .copyright {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    
+        color: #5e5454;
+        position: absolute;
+        bottom: 40px;
+        left: 0px;
+    }
+}
+
+// .makeStyles-globalStyle-1{
+//     height: 100%;
+// }

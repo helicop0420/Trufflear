@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package influencer;
+
+option java_multiple_files = true;
+option java_package = "com.trufflear.search.influencer";
+option java_outer_classname = "InfluencerProfileProtos";
+
+
+// Influencer profile encapsulates an influencer's information
+message InfluencerProfile {
+  string profile_pic_url = 1;
+  string profile_title = 2;
+  string category_title = 3;
+  string bio_description = 4;
+  string email = 5;
+}

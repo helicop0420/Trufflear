@@ -1,0 +1,135 @@
+
+.setting-container {
+    font-family: 'Inter';
+    padding-top: 93px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FBFFF0;
+    .main-container {    
+        max-width: 400px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 25px;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        img {
+            height: 35px;
+            margin-right: 15px;
+        }
+        .header-text {
+            display: flex;
+            align-items: baseline;
+        }
+        .main-caption {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            margin-right: 10px;
+            color: #282828;
+        }
+        .sub-caption {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+            color: #B7B7B7;
+        }
+    }
+    .live-setting {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #555555;
+
+    }
+    .any-question {
+        margin-top: 138px;
+        .link-helper  {
+            color:#B7B7B7
+        }
+        .link-dest {
+            color: black
+        }
+        .link-helper, .link-dest {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+        }
+    }
+
+    .btn-ok {
+        background: #282828 !important;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .btn-out {
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #555555;
+    }
+    .footer {
+        width: 100%;
+    }
+    .MuiSwitch-colorPrimary.Mui-checked {
+        color: white !important;
+    }
+    .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+        background-color: #4CB5AB !important;
+    }
+    button {
+        border-radius: 30px;
+        border: 1px solid #B7B7B7;
+        padding-left: 34px !important;
+        padding-right: 34px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        width: 100% !important;
+        text-transform: none !important;
+    }
+    .copyright-container {
+        position: relative;
+        min-height: 100px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 67px;
+    }
+    .copyright {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    
+        color: #B7B7B7;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

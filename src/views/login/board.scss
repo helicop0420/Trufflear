@@ -1,0 +1,103 @@
+
+.board-container {
+    font-family: 'Inter';
+    padding-top: 93px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FBFFF0;
+    .header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        img {
+            height: 35px;
+            margin-right: 15px;
+        }
+        .header-text {
+            display: flex;
+            align-items: baseline;
+        }
+        margin-bottom: 59px;
+    }
+    .main-container {    
+        max-width: 400px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 25px;
+    }
+    .main-caption {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #282828;
+    }
+    .sub-caption {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 40px;
+        color: #B7B7B7;
+        width: 100%;
+    }
+    button {
+        border-radius: 30px;
+        border: 1px solid #B7B7B7;
+        padding-left: 34px !important;
+        padding-right: 34px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        width: 100% !important;
+        text-transform: none !important;
+    }
+    .btn-connect {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #555555;
+    }
+    .signin {
+        margin-bottom: 61px;
+    }
+    .signup-form {
+        margin-top: 33px;
+        width: 100%;
+    }
+    .btn-signup {
+        background-color: #282828 !important;
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .copyright-container {
+        position: relative;
+        min-height: 100px;
+        flex-grow: 1;
+    }
+    .copyright {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    
+        color: #B7B7B7;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

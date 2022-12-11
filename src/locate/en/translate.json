@@ -1,0 +1,29 @@
+{
+    "translations": {
+        "onBoarding":"ONBOARDDING",
+        "boardOne": "1.  Link your Instagram profile",
+        "boardTwo": "2. Copy & paste your unique Trufflear link to Instagram bio (or Linktree)",
+        "boardThree": "3. Share with your followers that they can now search your content! 🎉",
+        "boardFour": "4. Remember to refresh on your account page when you post something new 🔄 🤭",
+        "getStarted":"Get Started",
+        "copyright":"Copyright Trufflear2022",
+        "refreshPost": "“Remember to refresh everytime you post something new”",
+        "refreshMent": "It may take 15-20 seconds",
+        "refresh": "Refresh",
+        "editProfile": "Edit Profile",
+        "addPhoto": "Add Photo",
+        "searchPlaceholder": "Type to search my content",
+        "search": "Search",
+        "welcome": "Welcome",
+        "connectInsta": "Connect with Instagram",
+        "setting": "SETTINGS",
+        "activeProfile": "Active Profile",
+        "linkHelper": "For any questions, please reach out to us at",
+        "signout": "Sign out",
+        "done": "Done",
+        "agree": "Agree",
+        "disagree": "Disagree",
+        "questionSignout": "Are you sure you want to sign out?",
+        "question": "Question"
+    }
+}
